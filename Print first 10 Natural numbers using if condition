@@ -1,0 +1,60 @@
+import java.util.*;
+	
+public class First10NaturalNum 
+{
+	public static void main(String args[])
+	{
+		int n=1;
+		
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+		if(n<=10)
+		{
+			System.out.println(n);
+			n=n+1;
+		}
+	}
+}
