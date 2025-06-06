@@ -1,0 +1,65 @@
+import java.util.*;
+
+public class DaysInMonth 
+{
+	public static void main(String args[])
+	{
+		Scanner obj=new Scanner(System.in);
+		
+		System.out.println("Enter the Month:");
+		String s=obj.nextLine();
+		
+		if(s.equals("January"))
+		{
+			System.out.println("January has 31 days");
+		}
+		else if(s.equals("February"))
+		{
+			System.out.println("February has 28 days");
+		}
+		else if(s.equals("March"))
+		{
+			System.out.println("March has 31 days");
+		}
+		else if(s.equals("April"))
+		{
+			System.out.println("April has 30 days");
+		}
+		else if(s.equals("May"))
+		{
+			System.out.println("May has 31 days");
+		}
+		else if(s.equals("June"))
+		{
+			System.out.println("June has 30 days");
+		}
+		else if(s.equals("July"))
+		{
+			System.out.println("July has 31 days");
+		}
+		else if(s.equals("August"))
+		{
+			System.out.println("August has 31 days");
+		}
+		else if(s.equals("September"))
+		{
+			System.out.println("September has 30 days");
+		}
+		else if(s.equals("October"))
+		{
+			System.out.println("October has 31 days");
+		}
+		else if(s.equals("November"))
+		{
+			System.out.println("November has 30 days");
+		}
+		else if(s.equals("December"))
+		{
+			System.out.println("December has 31 days");
+		}
+		else
+		{
+			System.out.println("Please enter valid month");
+		}
+	}
+}
