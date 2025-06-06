@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class PositiveOrNegative 
+{
+	public static void main(String args[])
+	{
+		Scanner r=new Scanner(System.in);
+		
+		System.out.println("Enter the number:");
+		int n=r.nextInt();
+		r.close();
+		
+		if(n>0)
+		{
+			System.out.println("The given number is Positive");
+		}
+		
+		else if(n==0)
+		{
+			System.out.println("The given number is neutral");
+		}
+		else
+		{
+			System.out.println("The given number is Negative");
+		}
+	}
+}
